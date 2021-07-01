@@ -2,10 +2,10 @@
 
 // FORMULA: (C × 9/5) + 32 = F
 
-function convertCelsiusToFarenheit(celsius){
-    let farenheit = (celsius *(9/5)) + 32
-    console.log(farenheit)
+module.exports = function convertCelsiusToFahrenheit(celsius){
+    let Fahrenheit = (celsius *(9/5)) + 32
+    console.log(Fahrenheit)
 }
 
-let currentTemp = 30
-convertCelsiusToFarenheit(currentTemp)
+//let currentTemp = 30
+//convertCelsiusToFahrenheit(currentTemp)
